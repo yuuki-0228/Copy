@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ResourceFile">
+      <UniqueIdentifier>{3c1da3ec-caa8-469c-8bbc-7ad23a0e878a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode">
+      <UniqueIdentifier>{6bf3fec8-fb91-4b72-9f97-7f825919270a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Ability">
+      <UniqueIdentifier>{29d7eddf-e2ad-4c19-9a45-c4653501aa92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Boss">
+      <UniqueIdentifier>{369c3665-a4e2-4574-8b56-0b2f9342c6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\CSound">
+      <UniqueIdentifier>{aa5eb9f2-05b2-438d-aa6b-c8571c6541fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\CSoundManager">
+      <UniqueIdentifier>{dd83ebd1-f05f-4fdc-80fd-8642da8690dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\CXInput">
+      <UniqueIdentifier>{091a2299-072f-4493-813d-35bbdaae9c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Enemy">
+      <UniqueIdentifier>{0d51b70d-b0a0-4f45-8005-f732434ac601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Gimmick">
+      <UniqueIdentifier>{ad884853-7b1c-4541-b033-a16b8146f360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Map">
+      <UniqueIdentifier>{2a07bed3-f28a-40a3-88e9-96156330b3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Player">
+      <UniqueIdentifier>{89fe0314-9fa3-4f40-9003-33d4589ba085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Shot">
+      <UniqueIdentifier>{8cb9095b-cbf4-4b96-b6c8-a975d7a77bdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\Main.cpp">
+      <Filter>SourceCode</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\AbltUpdate.cpp">
+      <Filter>SourceCode\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\BarrHeel.cpp">
+      <Filter>SourceCode\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\DGAblt.cpp">
+      <Filter>SourceCode\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\BAnimation.cpp">
+      <Filter>SourceCode\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\BAttack.cpp">
+      <Filter>SourceCode\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\BAttackControl.cpp">
+      <Filter>SourceCode\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\BEDisp.cpp">
+      <Filter>SourceCode\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\BMove.cpp">
+      <Filter>SourceCode\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\GetBEDispData.cpp">
+      <Filter>SourceCode\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\CSound.cpp">
+      <Filter>SourceCode\CSound</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\CSoundManager.cpp">
+      <Filter>SourceCode\CSoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\CXInput.cpp">
+      <Filter>SourceCode\CXInput</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Ability.cpp">
+      <Filter>SourceCode\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\E_Ran.cpp">
+      <Filter>SourceCode\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Status.cpp">
+      <Filter>SourceCode\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Gimmick.cpp">
+      <Filter>SourceCode\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\DispMap.cpp">
+      <Filter>SourceCode\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\GetMap.cpp">
+      <Filter>SourceCode\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\ShotCollisionDetection.cpp">
+      <Filter>SourceCode\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\ShotControl.cpp">
+      <Filter>SourceCode\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\ShotFlag.cpp">
+      <Filter>SourceCode\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Player.cpp">
+      <Filter>SourceCode\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceCode\Main.h">
+      <Filter>SourceCode</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\AbltUpdate.h">
+      <Filter>SourceCode\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Boss.h">
+      <Filter>SourceCode\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\CSound.h">
+      <Filter>SourceCode\CSound</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\CSoundManager.h">
+      <Filter>SourceCode\CSoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\CXInput.h">
+      <Filter>SourceCode\CXInput</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Enemy.h">
+      <Filter>SourceCode\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Shot.h">
+      <Filter>SourceCode\Shot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Data\ICON\Icon.ico">
+      <Filter>ResourceFile</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Data\ICON\ico.rc">
+      <Filter>ResourceFile</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
